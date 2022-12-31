@@ -1,0 +1,165 @@
+.entirepage{
+    background: #e9ebee;
+    height: 100vh;
+    overflow: none;
+}
+
+.feed-content{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap:3%;
+}
+
+.feed-left{
+   flex:25%;
+}
+.feed-middle::-webkit-scrollbar{
+    display: none;
+  }
+.feed-middle{
+    display: flex;
+    flex-direction: column;
+    gap:3%;
+    flex:47%;
+    overflow-y:auto;
+    height: 88vh;
+
+}
+
+.feed-right{
+   /* background-color: pink;*/
+    flex:25%;
+}
+
+.feed-middle > div{
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.first-middle-section{
+    height: 35%;
+}
+
+.second-middle-section{
+    
+    height: 20%;
+}
+
+.first-line{
+    height: 50%;
+    padding: 2%;
+}
+
+ .profilePic{
+    height: auto;
+
+    max-width: 100%;
+   
+    border-radius: 50%;
+
+    /* vertical-align: middle;
+  width: 80px;
+  height: 80px;*/
+}
+
+.iconFeed{
+    font-size: 1.5em;  
+}
+
+
+.stories{
+    display: flex;
+    height: 65%;
+    text-align: center;
+   
+
+}
+.stories > div{
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex: 15%;
+    max-width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.storyImage{
+    border: white solid 2px;
+    max-height: 70%;
+}
+
+.storyAdd{
+    border: white solid 2px;
+    max-height: 30%;
+    align-self: center;
+}
+/*.stories > div > div{
+    border: white solid 2px;
+    max-height: 60%;
+  
+}*/
+.stories > div > div > img{
+    max-height:6em;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+.friends-group{
+    padding-top: 3%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    gap:2%;
+    width: 100%;
+    height: 100%;
+}
+
+.profileModal{
+    position: absolute;
+    right: 1%;
+    /*top:7vh;*/
+    top:15vh;
+    width:25%;
+    border-radius: 3%;
+    background: white;  
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap:5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.profileModal > div{
+    margin: 5%;
+}
+
+.uploadPhotoSection{
+    margin-top:5%;
+    border-radius: 3%;
+    width:90%;
+    background: white;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logoutSection{
+    width: 100%;
+}
+
+.postDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}

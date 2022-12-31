@@ -1,0 +1,11 @@
+.friend-requests{
+    flex:70%;
+    height: 88vh;
+    overflow: auto;
+}
+
+.requests{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}

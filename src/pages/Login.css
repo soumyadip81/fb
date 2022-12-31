@@ -1,0 +1,25 @@
+.top{
+    background: #e9ebee;
+}
+
+.row{
+    height: 85vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.form{
+  width: 120;
+}
+
+.form > *{
+    border-radius: 5%;
+}
+
+.modal-content .row{
+    height: auto;
+    padding: 0;
+}
+
+/* onClick={() => {auth.signup(email,password) && setShow(false) && auth.updateProfileFun(firstName,lastName)}}*/

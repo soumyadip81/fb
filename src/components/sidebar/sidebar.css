@@ -1,0 +1,15 @@
+.sidebar-main-container{
+    padding-top: 3%;
+    padding-left:5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    gap:4%;
+    width: 100%;
+    height:89vh;
+    flex-basis: 10%;
+}
+
+span{
+    margin-left: 4%;
+}
