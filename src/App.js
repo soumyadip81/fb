@@ -14,8 +14,8 @@ function App() {
         <Suspense fallback = {<p>loading...</p>}>
           <Routes>
               <Route path = '/' element ={<Login/>} />
-              <Route path = 'feed' element ={<Feed/>} />
-              <Route path = 'friends' element ={<Friend/>} />
+              <Route path = '/feed' element ={<Feed/>} />
+              <Route path = '/friends' element ={<Friend/>} />
           </Routes>
         </Suspense>
       </Router>
